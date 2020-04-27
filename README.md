@@ -23,6 +23,7 @@ Keep running ./configure to verify your libraries are present before running mak
 
 
 <h3 id="theres-a-horizontal-rule-below-this">Your output should be similar to the following:</h3>
+<hr />
 $ ./configure
 
 Starting hydra auto configuration ...
@@ -80,7 +81,7 @@ Checking for secure compile option support in gcc ...
 Hydra will be installed into .../bin of: /usr/local                                                                                                                                                          
   (change this by running ./configure --prefix=path)    
   
-<hr />
+  
 
 
 Next, run make, then sudo make install.
