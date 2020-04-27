@@ -91,11 +91,6 @@ Next, run
 
 ```
 make
-``` 
-
-then 
-
-```
 sudo make install
 ```
 
