@@ -7,6 +7,7 @@
 ```
 <br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
+
 ```
 git clone https://github.com/vanhauser-thc/thc-hydra.git
 ./configure
@@ -103,6 +104,7 @@ sudo make install
 ```
 
 <h2>Running Hydra with SMB2</h2>
+
 ```
 /tools/thc-hydra/hydra -L users.txt -P pass.txt -v <ip> smb2
 ```
