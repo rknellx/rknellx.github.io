@@ -7,10 +7,10 @@
 ```
 <br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
-    ```
-    git clone https://github.com/vanhauser-thc/thc-hydra.git
-    ./configure
-    ```
+```
+git clone https://github.com/vanhauser-thc/thc-hydra.git
+./configure
+```
 
 Ensure you have downloaded as many of the following packages as you can, according to the Hydra compilation instructions:
 ```
