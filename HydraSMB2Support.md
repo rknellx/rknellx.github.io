@@ -1,7 +1,7 @@
 <h1>Installing Hydra with SMB2 Support</h1>
 
 <p>While attempting to use Hydra against a HTB system, I discovered Hydra 9.0 did not support SMB2.</p>
-
+<br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
 <ol>
   <li> git clone https://github.com/vanhauser-thc/thc-hydra.git</li>
@@ -21,8 +21,8 @@ For Debian based systems, such as Kali, some packages may not be accessible. I d
 To install the missing package for SMB2 support, run:
 sudo apt install libsmbclient-dev
 
-Keep running ./configure to verify your libraries are present before running make.
-
+<br>
+Keep running ./configure to verify your libraries are installed before running make.
 
 <h3 id="theres-a-horizontal-rule-below-this">Your output should be similar to the following:</h3>
 <hr />
@@ -85,11 +85,11 @@ Hydra will be installed into .../bin of: /usr/local
   (change this by running ./configure --prefix=path)    
 ```  
  <hr /> 
-
+<br>
 
 Next, run make, then sudo make install.
 
-<h2>Running Hydra</h2>
+<h2>Running Hydra with SMB2</h2>
 ```
 /tools/thc-hydra/hydra -L users.txt -P pass.txt -v <ip> smb2
 ```
