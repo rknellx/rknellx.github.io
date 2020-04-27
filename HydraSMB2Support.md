@@ -21,7 +21,7 @@ apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
                  libgcrypt11-dev libgcrypt20-dev
  ```
                  
-For Debian based systems, such as Kali, some packages may not be accessible. I did not install libmysqlclient-dev, but I did locate the package libgcryp11-dev package here: https://packages.debian.org/stretch/libgcrypt11-dev
+For Debian based systems, such as Kali, some packages may not be accessible. I did not install libmysqlclient-dev, but I did locate the package libgcryp11-dev package [here](https://packages.debian.org/stretch/libgcrypt11-dev):
 
 To install the missing package for SMB2 support, run:
 ```sudo apt install libsmbclient-dev```
@@ -102,6 +102,7 @@ Once you have installed all the dependencies for the modules you would like to u
 make
 sudo make install
 ```
+<br>
 
 <h2>Running Hydra with SMB2</h2>
 
