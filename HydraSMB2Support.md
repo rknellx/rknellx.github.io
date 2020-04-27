@@ -4,7 +4,6 @@
 
 ```
 [ERROR] invalid reply from target smb://10.10.10.2:445/
-
 ```
 <br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
