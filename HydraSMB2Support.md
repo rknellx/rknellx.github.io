@@ -96,7 +96,7 @@ Hydra will be installed into .../bin of: /usr/local
 <hr/> 
 <br>
 
-Next, run
+Once you have installed all the dependencies for the modules you would like to use, run:
 
 ```
 make
