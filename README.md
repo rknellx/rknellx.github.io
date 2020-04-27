@@ -81,7 +81,7 @@ Checking for secure compile option support in gcc ...
 Hydra will be installed into .../bin of: /usr/local                                                                                                                                                          
   (change this by running ./configure --prefix=path)    
   
-  
+ <hr /> 
 
 
 Next, run make, then sudo make install.
