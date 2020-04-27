@@ -28,6 +28,7 @@ To install the missing package for SMB2 support, run:
 <br>
 Keep running ./configure to verify your libraries are installed before running make.
 <br>
+<br>
 
 <h3 id="theres-a-horizontal-rule-below-this">Your output should be similar to the following:</h3>
 <hr />
