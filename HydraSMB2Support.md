@@ -87,8 +87,9 @@ Hydra will be installed into .../bin of: /usr/local
  <hr /> 
 <br>
 
-Next, run 
-``make``` 
+Next, run
+
+```make``` 
 
 then 
 
