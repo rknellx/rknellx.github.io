@@ -1,9 +1,9 @@
 <h1>Compiling Hydra with SMB2 Support</h1>
 
-<p>While attempting to use Hydra against a HTB system, I discovered Hydra 9.0 did not support SMB2. I kept receive the following error</p>
+<p>While attempting to use Hydra against a system, I discovered Hydra 9.0 did not support SMB2. I kept receive the following error</p>
 
 ```
-[ERROR] invalid reply from target smb://10.10.10.172:445/
+[ERROR] invalid reply from target smb://10.10.10.2:445/
 
 ```
 <br>
