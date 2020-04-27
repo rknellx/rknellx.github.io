@@ -1,4 +1,4 @@
-<h1>Installing Hydra with SMB2 Support</h1>
+<h1>Compiling Hydra with SMB2 Support</h1>
 
 <p>While attempting to use Hydra against a HTB system, I discovered Hydra 9.0 did not support SMB2.</p>
 <br>
@@ -19,7 +19,7 @@ apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
 For Debian based systems, such as Kali, some packages may not be accessible. I did not install libmysqlclient-dev, but I did locate the package libgcryp11-dev package here: https://packages.debian.org/stretch/libgcrypt11-dev
 
 To install the missing package for SMB2 support, run:
-sudo apt install libsmbclient-dev
+```sudo apt install libsmbclient-dev```
 
 <br>
 Keep running ./configure to verify your libraries are installed before running make.
@@ -87,7 +87,10 @@ Hydra will be installed into .../bin of: /usr/local
  <hr /> 
 <br>
 
-Next, run make, then sudo make install.
+Next, run 
+``make``` 
+then 
+```sudo make install```
 
 <h2>Running Hydra with SMB2</h2>
 ```
