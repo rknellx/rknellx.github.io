@@ -89,7 +89,9 @@ Hydra will be installed into .../bin of: /usr/local
 
 Next, run 
 ``make``` 
+
 then 
+
 ```sudo make install```
 
 <h2>Running Hydra with SMB2</h2>
