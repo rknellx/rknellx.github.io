@@ -1,6 +1,6 @@
 <h1>Compiling Hydra with SMB2 Support</h1>
 
-<p>While attempting to use Hydra against a system, I discovered Hydra 9.0 did not support SMB2. I kept receive the following error</p>
+<p>While attempting to use THC-Hydra against a system, I discovered Hydra 9.0 did not support SMB2. I received the following error:</p>
 
 ```
 [ERROR] invalid reply from target smb://10.10.10.2:445/
@@ -8,8 +8,16 @@
 <br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
 <ol>
-  <li> git clone https://github.com/vanhauser-thc/thc-hydra.git</li>
-  <li> run ./configure </li>
+  <li> 
+    ```
+    git clone https://github.com/vanhauser-thc/thc-hydra.git
+    ```
+  </li>
+  <li> 
+    ```
+    run ./configure
+    ```
+  </li>
 </ol>
 
 Ensure you have downloaded as many of the following packages as you can, according to the Hydra compilation instructions:
