@@ -7,18 +7,10 @@
 ```
 <br>
 <h3>In order to get SMB2 support, perform the following steps:</h3>
-<ol>
-  <li> 
     ```
     git clone https://github.com/vanhauser-thc/thc-hydra.git
+    ./configure
     ```
-  </li>
-  <li> 
-    ```
-    run ./configure
-    ```
-  </li>
-</ol>
 
 Ensure you have downloaded as many of the following packages as you can, according to the Hydra compilation instructions:
 ```
@@ -39,7 +31,8 @@ Keep running ./configure to verify your libraries are installed before running m
 <br>
 
 <h3 id="theres-a-horizontal-rule-below-this">Your output should be similar to the following:</h3>
-<hr />
+<hr/>
+
 ```
 $ ./configure
 
@@ -98,7 +91,8 @@ Checking for secure compile option support in gcc ...
 Hydra will be installed into .../bin of: /usr/local                                                                                                                                                          
   (change this by running ./configure --prefix=path)    
 ```  
- <hr /> 
+
+<hr/> 
 <br>
 
 Next, run
