@@ -9,10 +9,12 @@
 </ol>
 
 Ensure you have downloaded as many of the following packages as you can, according to the Hydra compilation instructions:
+```
 apt-get install libssl-dev libssh-dev libidn11-dev libpcre3-dev \
                  libgtk2.0-dev libmysqlclient-dev libpq-dev libsvn-dev \
                  firebird-dev libmemcached-dev libgpg-error-dev \
                  libgcrypt11-dev libgcrypt20-dev
+ ```
                  
 For Debian based systems, such as Kali, some packages may not be accessible. I did not install libmysqlclient-dev, but I did locate the package libgcryp11-dev package here: https://packages.debian.org/stretch/libgcrypt11-dev
 
@@ -24,6 +26,7 @@ Keep running ./configure to verify your libraries are present before running mak
 
 <h3 id="theres-a-horizontal-rule-below-this">Your output should be similar to the following:</h3>
 <hr />
+```
 $ ./configure
 
 Starting hydra auto configuration ...
@@ -80,11 +83,13 @@ Checking for secure compile option support in gcc ...
                                                                                                                                                                                                              
 Hydra will be installed into .../bin of: /usr/local                                                                                                                                                          
   (change this by running ./configure --prefix=path)    
-  
+```  
  <hr /> 
 
 
 Next, run make, then sudo make install.
 
 <h2>Running Hydra</h2>
+```
 /tools/thc-hydra/hydra -L users.txt -P pass.txt -v <ip> smb2
+```
